@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const line =  `Ashik Rahman \n (Pazi Sultana's Halfpant)`;
+  const line =  `Ashik Rahman`;
   return (
     <div className="App">
       <header className="App-header">
