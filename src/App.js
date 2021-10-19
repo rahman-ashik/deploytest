@@ -2,21 +2,20 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const line =  `Ashik Rahman \n (Pazi Sultana's Halfpant)`;
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div class="floating">
+          <div class="card-object rotate">
+            <header> hmmm....</header>
+              <main>
+                <blockquote class="message">This is a test page <em class="forget"></em> 
+                to test Github Pages.</blockquote>
+              </main>
+            <footer class="author"> {line} </footer>
+          </div>
+        </div>
       </header>
     </div>
   );
